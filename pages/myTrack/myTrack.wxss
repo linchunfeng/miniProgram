@@ -1,0 +1,54 @@
+/* pages/myTrack/myTrack.wxss */
+.container{
+    background-color: rgb(242, 242, 242);
+}
+.weui-panel{
+    position: relative;
+    width: 100%;
+}
+.track-left-big{
+    position: relative;
+    top:-0.5rem;
+    font-weight:400;
+    font-size:17px;
+    width:auto;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.track-left-small{
+    position: relative;
+    top:0.5rem;
+    color:#999;
+    font-size:13px;
+    line-height:1.2;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.track-right-small{
+    position: absolute;
+    top:1.5rem;
+    right: 0.8rem;
+    color:#999;
+    font-size:13px;   
+    width:auto;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.track-right-big{
+    position: absolute;
+    bottom:1.5rem;
+    right: 0.8rem;
+    font-weight:400;
+    font-size:17px;
+    line-height:1.2;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}

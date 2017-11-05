@@ -1,0 +1,110 @@
+/* pages/personalCenter/personalCenter.wxss */
+.container{
+    background-color: rgb(242, 242, 242);
+}
+/*顶部*/
+.topbar{
+    position: relative;
+    width: 100%;
+    height: 12rem;
+    text-align: center;
+    background-color: #fff;
+    /*background-image: url(../../image/bg.png);
+    background-repeat:repeat;*/
+}
+.topbar image{
+    width: 33.3%;
+    height: 7rem;
+}
+.topbar text{
+    font-size:1.3rem;
+    color: rgb(60, 60, 60);
+}
+.name{
+    font-size:0.8rem;
+    color: rgb(60, 60, 60);
+}
+/*个人头像*/
+.photo{
+    position: absolute;
+    bottom:5rem;
+    left:39%;
+    width: 5rem;
+    height: 5rem;
+}
+.photo image{
+    width: 100%;
+    height: 100%;
+    border: #fff solid 0.3rem;
+    border-radius: 50%;
+}
+/*基础功能模块*/
+.basicfunc-bar,.recordfunc-bar{
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    background-color: #fff;
+}
+.basicfunc-bar text,.recordfunc-bar text{
+    padding: 1rem;
+    color: rgb(60, 60, 60);
+}
+.func-bar{
+    position: relative;
+    width: 94%;
+    margin:1rem auto 0;
+    height: 5rem;
+    text-align: center;
+}
+.imageborder{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border:0.1rem solid #707070;
+    border-radius:50%;
+}
+.func-bar image{
+    position: relative;
+    top:0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.func-bar text{
+    display: block;
+    position: relative;
+    top:-0.5rem;
+    font-size:0.8rem;
+    color: rgb(100, 100, 100);
+}
+.text-style text{
+    display: inline-block;
+    font-size:1.3rem;
+    color: rgb(100, 100, 100);
+    padding:0.5rem 0.1rem;
+    top:0rem;
+
+}
+.left-item{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 30%;
+    height: 4.5rem;
+    text-align: center;
+}
+.right-item{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 30%;
+    height: 4.5rem;
+    text-align: center;
+}
+.center-item{
+    display: inline-block;
+    width: 30%;
+    height: 4.5rem;
+    text-align: center;
+}

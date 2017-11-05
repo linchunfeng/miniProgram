@@ -1,0 +1,60 @@
+<!--pages/personalCenter/personalCenter.wxml-->
+<view class="container">
+    <view class="topbar">
+        <image src="../../image/bg.png" wx:for="{{[1, 2, 3]}}"></image>
+        <view class="photo">
+        <image src="{{userInfo.avatarUrl}}"></image></view>
+        <!--text>188*****88</text-->
+        <view class="name">{{userInfo.nickName}}</view>
+    </view>
+    <!--基础功能模块-->
+    <view class="basicfunc-bar">
+        <text>基础功能</text>
+        <view class="line-style"></view>
+        <view class="func-bar">
+            <view class="left-item" bindtap="goMyTrack">
+                <view class="imageborder">
+                <image src="../../image/track1.png"></image>
+                </view>
+                <text>我的轨迹</text>
+            </view>
+            <view class="right-item">
+                <view class="imageborder">
+                <image src="../../image/info.png"></image>
+                </view>
+                <text>我的资料</text>
+            </view>
+            <view class="center-item">
+                <view class="imageborder">
+                <image src="../../image/pl.png"></image>
+                </view>
+                <text>我的评论</text>
+            </view>
+        </view>
+    </view>
+    <!--记录功能模块-->
+    <view class="recordfunc-bar">
+        <text>记录功能</text>
+        <view class="line-style"></view>
+        <view class="func-bar">
+            <view class="left-item">
+                <view class="text-style">
+                    <text>11</text>天
+                </view>
+                <text>地图图龄</text>
+            </view>
+            <view class="right-item">
+                <view class="text-style">
+                    <text>5.2</text>公里
+                </view>
+                <text>总里程</text>
+            </view>
+            <view class="center-item">
+                <view class="text-style">
+                    <text>51.2</text>公里
+                </view>
+                <text>今天运动</text>
+            </view>
+        </view>
+    </view>
+</view>

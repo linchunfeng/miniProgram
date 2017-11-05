@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/commentDetail/commentDetail",
+    "pages/personalCenter/personalCenter",
+    "pages/myTrack/myTrack",
+    "pages/comment/comment",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f3d142",
+    "navigationBarTitleText": "厦大地图",
+    "navigationBarTextStyle":"black"
+  }
+}

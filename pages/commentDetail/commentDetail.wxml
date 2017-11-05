@@ -1,0 +1,21 @@
+<!--pages/commentDetail/commentDetail.wxml-->
+<view class="container">
+    <view class="image-bar">
+        <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505457605955&di=9c80b6cd3eb89c8a1eb0f28538f9570b&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2648895177%2C4010778361%26fm%3D214%26gp%3D0.jpg"></image>
+    </view>
+    <view class="weui-panel" wx:for="{{comment}}">
+        <view class="weui-panel__bd">
+            <view class="weui-media-box weui-media-box_text">
+            <image src="../../image/rightbtn.png"></image>
+                <view class="weui-media-box__title weui-media-box__title_in-text">{{item.nickName}}</view>
+                <view class="weui-media-box__desc">{{item.content}}</view>
+                <view class="weui-media-box__info">
+                    <view class="weui-media-box__info__meta">{{item.sendtime}}</view>
+                    <!--view class="weui-media-box__info__meta">时间</view>
+                    <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息</view-->
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="yellow-button" bindtap="goComment">我也要评论</view>
+</view>

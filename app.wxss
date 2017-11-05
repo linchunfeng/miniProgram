@@ -1,0 +1,17 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: 微软雅黑;
+} 
+.line-style {
+    width: 94%;
+    height:0.1rem;
+    margin: 0.5rem 3%;
+    background:rgb(200,200,200);
+}

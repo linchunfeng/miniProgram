@@ -1,0 +1,18 @@
+<!--pages/myTrack/myTrack.wxml-->
+<view class="container">
+    <view class="weui-panel weui-panel_access" wx:for="{{track}}">
+        <view class="weui-panel__bd">
+            <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="{{item.link}}" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="track-left-big">{{item.date}} 轨迹</view>
+                    <view class="track-left-small">{{item.time}}</view>
+                    <view class="track-right-small">公里</view>
+                    <view class="track-right-big">{{item.distance}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,46 @@
+/* pages/commentDetail/commentDetail.wxss */
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 242, 242);
+    margin-bottom:5rem;
+}
+.image-bar{
+    width:100%;
+
+}
+.image-bar image{
+    width: 100%; 
+    height: 10rem;      
+}
+.weui-panel {
+    width:100%;
+}
+.weui-panel image{
+    float: left;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: #fff solid 0.1rem;
+    border-radius: 50%;
+}
+.weui-media-box__info__meta {
+    float:right;
+}
+.weui-media-box__title {
+    font-size:14px;
+}
+.yellow-button{
+    position: fixed;
+    bottom: 2rem;
+    left:25%;
+    width: 50%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color:#fff;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color:#f3d142;/*主题色*/
+    border-radius: 2rem;
+    z-index: 20;
+    box-shadow: 0 0.5rem 1rem #888888;
+}
